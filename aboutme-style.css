@@ -1,22 +1,39 @@
 a {
     color: green;
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+/*
+part3 task 1
+*/
 
 h3 {
     color: khaki;
 }
-/*1st task*/
+/*p1 1st task*/
 
 p {
     font-family: Tahoma;
 }
+p:first-letter {
+    font-size: 40px;
+    margin-right: 9px;
+    line-height: 0.9;
+    float: left;
+}
+/*
+p3 task2
+*/
 
 ol {
     font-family: Arial;
 }
-/*2nd task*/
+/*p1 2nd task*/
 
 h1 {
     color: cornflowerblue;
 }
-/*3rd task*/
+/*p1 3rd task*/
